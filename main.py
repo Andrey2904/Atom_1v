@@ -17,4 +17,8 @@ def hello_index():
         "email":"sv_dron@examial",
     }
 
-
+@app.get('/by')
+def by_site():
+    return{
+        "message":"by-by",
+    }
